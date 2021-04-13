@@ -1,10 +1,10 @@
 
-  #login{
+#login {
     flex-direction: column;
     text-align: center;  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     /* font-family: Arial, Helvetica, sans-serif; */
-  }
+}
 
 
 #login > form {
@@ -12,13 +12,13 @@
   padding-left: 35%;
 }
 
-  .row{
+.row {
       justify-content: center;
-  }
+}
 
-  body{
+body {
       background-color: #fafafa;
-  }
+}
 
 .card-body{
     background-color: #fafafa;
@@ -31,8 +31,6 @@
 }
 
 .logos {
-  
-  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,13 +38,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
 
-
-
-
 h1{
   display: inline;
 }
-
 
 .container{
     display: flex;
