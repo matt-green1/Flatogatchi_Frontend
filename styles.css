@@ -2,7 +2,7 @@
 #login {
     flex-direction: column;
     text-align: center;  
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
@@ -23,6 +23,35 @@
 .landingformheader {
   margin-bottom: 20px;
   text-align:inherit;
+}
+
+#logout {
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#updateName {
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.album-py-5-bg-light {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#updatenameform {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.card.mb-4.shadow-sm {
+  margin: 15px;
+}
+
+.bd-placeholder-img.card-img-top {
+  padding: 20px;
 }
 
 .row {

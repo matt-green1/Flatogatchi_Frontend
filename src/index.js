@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <label class="sr-only" for="name">Enter monster Name</label>
                                 <input type="text" class="form-control" id="monstername" placeholder="Choose Monster Name">
                             </div><br><br>
-                            <button type="submit" class="btn btn-primary">Adopt Monster</button>
+                            <button type="submit" class="btn btn-primary" >Adopt Monster</button>
                         </form>
                     </div>
                 </div>
@@ -48,14 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
         signInFormForDelete.remove()
         createAccountFormForDelete.remove()
         const logOutButton = document.createElement("button")
-        logOutButton.class = "btn btn-primary"
+        // logOutButton.class = "btn btn-primary"
+        logOutButton.classList.add("btn-secondary")
         logOutButton.id = "logout"
         logOutButton.textContent = "Log Out"
         logInDiv.append(logOutButton)
      
         //creates change name button:
         const updateUserButton = document.createElement("button")
-        updateUserButton.class = "btn btn-primary"
+        // updateUserButton.class = "btn btn-primary"
+        updateUserButton.classList.add("btn-secondary")
         updateUserButton.id = "updateName"
         updateUserButton.textContent = "Update Username"
         logInDiv.append(updateUserButton)
@@ -243,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
         timeouts.length = 0
 
         row.innerHTML = `
-        <div data-id=${pet.id} class="card" style="width: 45rem;">
+        <div data-id=${pet.id} class="card" style="width: 35rem;">
             <img src=${monsterTemplate.image_url} class="card-img-top" style="${background};background-repeat: no-repeat;  background-size: cover;" alt="...">
             <div class="card-body">
              <h5 class="card-title">Name: ${pet.name}</h5>
@@ -418,7 +420,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <label class="sr-only" for="name">Update Name</label>
                         <input type="text" class="form-control" id="updatedname" placeholder="Enter New Username">
                     </div>
-                    <button type="submit" class="btn btn-primary">Update Name</button>
+                    <button type="submit" class="btn btn-warning">Update Name</button>
                 `
                 logInDiv.append(nameForm)
                
