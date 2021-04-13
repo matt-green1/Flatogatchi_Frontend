@@ -12,12 +12,25 @@
   padding-left: 35%;
 }
 
+#email {
+  margin-right: 10px;
+}
+
+#name {
+  margin-right: 10px;
+}
+
+.landingformheader {
+  margin-bottom: 20px;
+  text-align:inherit;
+}
+
 .row {
-      justify-content: center;
+  justify-content: center;
 }
 
 body {
-      background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .card-body{
@@ -35,8 +48,18 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;  
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px 0px 10px 0px;
   }
+
+#createmonster {
+  text-align: center;
+  justify-content: center;
+}
+
+#monstername {
+  margin-bottom: 10px;
+}
 
 h1{
   display: inline;
@@ -49,8 +72,24 @@ h1{
     text-align: center;  
 }
 
-.fling-minislide {width:70%; height:0px; padding-bottom: 55%; overflow:hidden; position: relative; justify-content: center;}
-.fling-minislide img{ position:absolute; animation:fling-minislide 15s infinite; opacity:0; width: 50%; height: auto; align-content: center; margin-left: auto;
+.fling-minislide {
+  width:70%;
+  height:0px;
+  padding-bottom:55%; 
+  margin-top: 75px;
+  overflow:hidden; 
+  position: relative; 
+  justify-content: center;
+}
+
+.fling-minislide img { 
+  position:absolute; 
+  animation:fling-minislide 15s infinite; 
+  opacity:0; 
+  width: 50%; 
+  height: auto; 
+  align-content: center; 
+  margin-left: auto;
   margin-right: auto; left: 0; right: 0; text-align: center;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
