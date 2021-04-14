@@ -40,10 +40,17 @@
   text-align: center;
 }
 
-#updatenameform {
+form#updatenameform {
   margin-top: 20px;
-  width: 200px;
-  height: 200px;
+  width: 85%;
+}
+
+button.btn.btn-warning {
+  margin-left: 87px;
+}
+
+.form-control #updatename {
+  width: 43%;
 }
 
 .card.mb-4.shadow-sm {
