@@ -9,7 +9,7 @@ Back end repo <a href="https://github.com/matt-green1/Flatogatchi_Backend">here<
 Demo coming soon!
 
 ## Prerequisites
-React, Rails, PostgreSQL
+Javascript, Rails, PostgreSQL
 
 ## Installation Instructions
 
