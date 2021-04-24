@@ -6,14 +6,14 @@ A virtual pet app inspired by the 90's Tamagotchi toys. Users can create an acco
 Back end repo <a href="https://github.com/matt-green1/Flatogatchi_Backend">here</a>.
 
 ## Demo
-Demo coming soon!
+You can watch video demo <a href="https://www.youtube.com/watch?v=pYok3fufeUI&feature=youtu.be&ab_channel=MatthewGreen">here</a>.
 
 ## Prerequisites
 Javascript, Rails, PostgreSQL
 
 ## Installation Instructions
 
-1. Fork and clone <a href="https://github.com/matt-green1/Flatogatchi_Backend">back end repo</a>.
+1. Fork and clone <a href="https://www.youtube.com/watch?v=_1SBHhtt6L4&ab_channel=MatthewGreen">back end repo</a>.
 
 2. Set up back end. In terminal, enter:
 
