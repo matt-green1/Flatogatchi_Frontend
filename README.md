@@ -8,8 +8,8 @@ Back end repo <a href="https://github.com/matt-green1/Flatogatchi_Backend">here<
 ## Demo
 You can watch video demo <a href="https://www.youtube.com/watch?v=_1SBHhtt6L4&ab_channel=MatthewGreen">here</a>.
 
-## Prerequisites
-Javascript, Rails, PostgreSQL
+## Tech & Libraries
+Javascript | HTML | Bootstrap | Ruby on Rails | PostgreSQL
 
 ## Installation Instructions
 
